@@ -30,9 +30,9 @@ This repository contains several Python scripts, each with its own specific util
 
 #### Description
 
-The `highlight.py` script is used to highlight specific keywords in a given text by surrounding them with customizable formatting. This is useful for emphasizing certain parts of a text output in command-line applications or logs.
+The `highlight.py` script searches through an input text file for words beginning with the letters provided in the arguments. Matched words are "highlighted" by printing out a new version of the original file with the matches in uppercase.
 
 #### Usage
 
 ```bash
-python3 highlight.py [options] <text> <keyword>
+python3 highlight.py <filename> [<a> <b> <c> ...]
