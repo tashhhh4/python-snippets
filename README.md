@@ -9,13 +9,10 @@ Short Python scripts I created.
   - [1. `highlight.py`](#1-highlightpy)
     - [Description](#description)
     - [Usage](#usage)
-    - [Example](#example)
   - [2. `unicode_chart.py`](#2-unicode_chartpy)
     - [Description](#description-1)
     - [Usage](#usage-1)
-    - [Example](#example-1)
 - [Installation](#installation)
-- [Contributing](#contributing)
 - [License](#license)
 
 ---
@@ -37,8 +34,23 @@ The `highlight.py` script searches through an input text file for words beginnin
 ```bash
 python3 highlight.py <filename> [<a> <b> <c> ...]
 
-#### Example
-
 ```bash
 python3 highlight.py sample1.txt p 
 python3 highlight.py sample2.txt h m e
+
+### 2. `unicode_chart.py`
+
+The `unicode_chart.py` script prints out a chart of unicode characters, showing the character and its numerical value. One argument: prints everything
+
+#### Usage
+
+0 arguments mode: Displays the first 100 characters.
+1 argument mode: Displays characters from 0 up to the given number.
+2 arguments: Displays characters from the first number up to the second number.
+
+```bash
+python3 unicode_chart.py [<number> <number>]
+
+```bash
+python3 unicode_chart.py
+python3 unicode_chart.py 9000 9400
