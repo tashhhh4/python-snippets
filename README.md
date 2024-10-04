@@ -36,3 +36,9 @@ The `highlight.py` script searches through an input text file for words beginnin
 
 ```bash
 python3 highlight.py <filename> [<a> <b> <c> ...]
+
+#### Example
+
+```bash
+python3 highlight.py sample1.txt p 
+python3 highlight.py sample2.txt h m e
